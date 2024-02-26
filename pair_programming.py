@@ -28,3 +28,20 @@ def ftandin_to_meters(feet, inches):
     
     return meters
 
+
+## Kailey's feedback:
+# Your use of docstrings was good, and you successfully defined your parameters and returns. You also did a good job of including examples of your function in use. Although you had a good description of your function, you could have included a shorter description at the very top of your docstring to match Python function documentation. You also could have made it a little more clear within your description that you were converting the sum of the two parameters (feet and inches) to a meter value, rather than each of them seperately. 
+
+def test_ftandin_to_meters():
+    # test 1
+    assert ftandin_to_meters(0, 0) == 0
+    # test 2
+    assert ftandin_to_meters(3.28084, 0) == 1.000000032
+    # test 3
+    assert ftandin_to_meters(0, 1) == 0.0254
+    
+    print("All tests passed")
+
+# run my function which asserts multiple tests for ftandin_to_meters(feet, inches)
+test_ftandin_to_meters()
+          
