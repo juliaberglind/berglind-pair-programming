@@ -2,28 +2,29 @@ def ftandin_to_meters(feet, inches):
     """
     Description
     ___________
-    Function that converts two values, feet and inches to meters
+    Function that converts two values, feet and inches to its equivilent value in meters. 
     
     Inputs
     __________
-    feet (float): Length in feet
-    inches (float): Length in inches
-    
+    feet: float or int
+        Lenght in feet.
+    inches: float or int
+        Length in inches.
     Returns
     _________
-    float : equivilent length in meters
+    float
+        Equivilent length in meters.
+    
+    Examples
+    _________
+    ftandin_to_meters(6, 0)
+    1.8288
     
     """
-    total_inches = feet * 12 + inches # converts feet to inches and sums
-    meters = total_inches * 0.0254 # converts total inches to meters
+    # converts feet to inches and sums
+    total_inches = feet * 12 + inches
+    # converts total inches to meters
+    meters = total_inches * 0.0254 
+    
     return meters
 
-# user input
-feet = float(input("Enter feet: ")) 
-inches = float(input("Enter inches: "))
-
-# conversion
-meters = ftandin_to_meters(feet, inches)
-
-# display results
-print(f"{feet} feet and {inches} inches is equal to {meters: .2f} meters.")
