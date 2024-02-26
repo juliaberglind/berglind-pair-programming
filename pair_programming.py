@@ -30,7 +30,9 @@ def ftandin_to_meters(feet, inches):
 
 
 ## Kailey's feedback:
-# Your use of docstrings was good, and you successfully defined your parameters and returns. You also did a good job of including examples of your function in use. Although you had a good description of your function, you could have included a shorter description at the very top of your docstring to match Python function documentation. You also could have made it a little more clear within your description that you were converting the sum of the two parameters (feet and inches) to a meter value, rather than each of them seperately. 
+# Your use of docstrings was good, and you successfully defined your parameters and returns. You also did a good job of including examples of your function in use. 
+# Although you had a good description of your function, you could have included a shorter description at the very top of your docstring to match Python function documentation. 
+# You also could have made it a little more clear within your description that you were converting the sum of the two parameters (feet and inches) to a meter value, rather than each of them seperately. 
 
 def test_ftandin_to_meters():
     # test 1
